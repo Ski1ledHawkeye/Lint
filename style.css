@@ -1,0 +1,234 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+}
+body
+{
+  display: flex;
+  background: #FFFFC7;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.lhs
+{
+    position: absolute;
+    width: 529px;
+    height: 525px;
+    left: 20px;
+    top: 20px;
+    display: flex;
+
+}
+.lhs .image
+{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    display: flex;
+}
+.lhs .name
+{
+    position: absolute ;
+    width: 200px;
+    height: 120px;
+    left: 20px;
+    top: 260px;
+
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 90%;
+    color: #233E8B;
+}
+.rhs .insta
+{
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    line-height: 105.4%;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #233E8B;
+    transform: rotate(-45deg);
+
+    position: absolute;
+    width: 324.11px;
+    height: 108.67px;
+    left: 784px;
+    top: 264px;
+
+    background: #FFFFC7;
+    border-radius: 15px;
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+
+.insta:hover,
+.rhs.insta:focus
+{ 
+    background: #33FE9D; 
+} 
+.insta:active
+{ 
+    background: #A9FF3B; 
+}
+
+.rhs .ldn
+{
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    line-height: 105.4%;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #233E8B;
+    transform: rotate(45deg);
+
+    position: absolute;
+    width: 322.19px;
+    height: 109.31px;
+    left: 1024px;
+    top: 176px;
+
+    background: #FFFFC7;
+    border-radius: 15px;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+
+.ldn:hover,
+.rhs.ldn:focus
+{ 
+    background: #33FE9D; 
+} 
+.ldn:active
+{ 
+    background: #A9FF3B; 
+}
+
+.rhs .gh
+{
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    line-height: 105.4%;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #233E8B;
+    transform: rotate(135deg);
+
+    position: absolute;
+    width: 324.11px;
+    height: 108.67px;
+    left: 1110px;
+    top: 413px;
+
+    background: #FFFFC7;
+    border-radius: 15px;
+    transform: rotate(135deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+
+.gh:hover,
+.rhs.gh:focus
+{ 
+    background: #33FE9D; 
+} 
+.gh:active
+{ 
+    background: #A9FF3B; 
+}
+
+.rhs .twt
+{
+
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    display: inline-block;
+    line-height: 105.4%;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #233E8B;
+    transform: rotate(-135deg);
+
+    position: absolute;
+    width: 322.19px;
+    height: 109.31px;
+    left: 872px;
+    top: 500px;
+
+    background: #FFFFC7;
+    border-radius: 15px;
+    transform: rotate(-135deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+
+.twt:hover,
+.rhs.twt:focus
+{ 
+    background: #33FE9D; 
+} 
+.twt:active
+{ 
+    background: #A9FF3B; 
+}
+
+.rhs .gmail
+{
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 40%;
+    bottom: 40%;
+
+
+    position: absolute;
+    width: 172.6px;
+    height: 172.6px;
+    left: 1025px;
+    top: 311px;
+
+    background: #FFFFC7;
+    border-radius: 15px;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+
+.gmail:hover,
+.rhs.gmail:focus
+{ 
+    background: #33FE9D; 
+} 
+.gmail:active
+{ 
+    background: #A9FF3B; 
+}
